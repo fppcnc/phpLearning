@@ -1,0 +1,48 @@
+.frame {
+    margin: 60px auto;
+    background: black;
+    border: 40px ridge beige;
+}
+
+table {
+    border: 1px solid black;
+    border-image: linear-gradient(to right, red, orange) 1;
+    border-image-slice: 1;
+    padding: 10px;
+    position: relative;
+}
+
+table:before {
+    /*content: "A   B   C   D   E   F   G   H";*/
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+}
+
+}
+
+th {
+    background-color: ivory;
+}
+
+tbody th {
+    padding: 0 6px;
+}
+
+.ivory {
+    width: 60px;
+    height: 60px;
+    background-color: ivory;
+    font-size: 12px;
+    vertical-align: bottom;
+}
+
+.brown {
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    font-size: 12px;
+    vertical-align: bottom;
+}
